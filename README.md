@@ -15,3 +15,12 @@ echo $SHELL
 To install:
 - [AWS Elastic Beanstalk by CLI](https://github.com/aws/aws-elastic-beanstalk-cli-setup)
 - [AWS Console](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.html)
+
+An AWS Elastic Beanstalk environment ```eb create <env-name>``` will automatically create these AWS resources: 
+- Launches an environment named GettingStartedApp-env with these AWS resources:
+- An Amazon Elastic Compute Cloud (Amazon EC2) instance (virtual machine)
+- An Amazon EC2 security group
+- An Amazon Simple Storage Service (Amazon S3) bucket
+- Amazon CloudWatch alarms
+- An AWS CloudFormation stack
+- A domain name
