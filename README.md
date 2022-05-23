@@ -24,4 +24,5 @@ An AWS Elastic Beanstalk environment ```eb create <env-name>``` will automatical
 - An AWS CloudFormation stack
 - A domain name
 
-##### When you create an eb environment you need to have the [instance profiles](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-instanceprofile.html). [Resolved Issue](https://github.com/aws/aws-elastic-beanstalk-cli/issues/26)
+##### When you create an eb environment you need to have the [instance profiles](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-instanceprofile.html). 
+###### [Resolved Issue](https://github.com/aws/aws-elastic-beanstalk-cli/issues/26)
