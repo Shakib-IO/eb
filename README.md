@@ -24,3 +24,5 @@ An AWS Elastic Beanstalk environment ```eb create <env-name>``` will automatical
 - Amazon CloudWatch alarms
 - An AWS CloudFormation stack
 - A domain name
+
+##### When you create an eb environment you need to have the [instance profiles](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-instanceprofile.html)
