@@ -12,3 +12,6 @@ OR
 ```
 echo $SHELL
 ```
+To install:
+- [AWS Elastic Beanstalk by CLI](https://github.com/aws/aws-elastic-beanstalk-cli-setup)
+- [AWS Console](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.html)
