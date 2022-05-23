@@ -7,8 +7,8 @@ echo $$
 > 5752
 cat /proc/5752/comm
 > bash
-
+```
 OR
-
+```
 echo $SHELL
 ```
